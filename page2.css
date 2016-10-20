@@ -1,0 +1,47 @@
+.map {
+/*	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	top: 50%;*/
+	display: inline-block;
+/*	position: absolute;
+	margin: auto;*/
+/*	padding-left: 50%;*/
+/*	padding-right: 50%;*/
+/*	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;*/
+}
+
+body {
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	font-weight: 300;
+}
+
+h1{
+/*	text-align: left;*/
+	margin-bottom: 50px;
+/*	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	top: 50%;*/
+}
+
+@font-face { 
+   src: url(YoungSerif-Regular.woff); 
+   font-family: 'YoungSerif-Regular';
+   font-weight: 400;
+}
+
+header	{
+	font-size: 5vw;
+	font-family: 'YoungSerif-Regular';
+	font-family: 'Russo One', sans-serif;
+	font-weight: 400;
+	color: black;
+	position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+} 

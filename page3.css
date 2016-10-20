@@ -1,0 +1,25 @@
+.calendar {
+	margin: 0 auto;
+	height: 500px;
+	width: 600px;
+	display: block;
+}
+
+body {
+	position: relative;
+	width: 100%;
+	font-family: 'Russo One', sans-serif;
+	font-weight: 300;
+}
+
+@font-face { 
+   src: url(YoungSerif-Regular.woff); 
+   font-family: 'YoungSerif-Regular';
+   font-weight: 400;
+}
+
+.center {
+	text-align: center;
+	padding-top: 30px;
+}
+

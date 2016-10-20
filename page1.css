@@ -1,0 +1,44 @@
+.my-flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	width: 50%;
+	padding-left: 25%;
+}
+
+@font-face {
+   	src: url(YoungSerif-Regular.woff); 
+   	font-family: 'YoungSerif-Regular';
+	font-weight: 300;
+}
+
+.my-flex-block {
+	color: black;
+	size: 100px;
+}
+
+.title {
+	font-size: 500;
+	font-weight: 400;
+}
+
+body {
+	position: relative;
+	width: 100%;
+	font-family: 'Russo One', sans-serif;
+	font-weight: 100;
+	font-size: 2vw;
+}
+
+h1 {
+	font-weight: 200;
+	font-size: 2vw;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 1.2vw;
+}
+}

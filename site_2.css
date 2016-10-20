@@ -1,0 +1,86 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: 'Russo One', sans-serif;
+	font-weight: 300;
+	overflow: hidden;
+}
+
+header	{
+	font-size: 5vw;
+	font-family: 'YoungSerif-Regular';
+	font-family: 'Russo One', sans-serif;
+	font-weight: 400;
+	color: black;
+	position: absolute;
+    top: 20%;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h3	{
+	font-size: 1vw;
+	font-family: 'YoungSerif-Regular';
+	font-family: 'Russo One', sans-serif;
+	font-weight: 50;
+	color: black;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.back {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 200%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+}
+
+.background {
+	color: #000000;
+	opacity: 50%;
+}
+@font-face { 
+   src: url(YoungSerif-Regular.woff); 
+   font-family: 'YoungSerif-Regular';
+   font-weight: 400;
+}
+
+header ul {
+	list-style: none;
+	text-align: center;
+}
+
+header a {
+	color: #000000;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+h3 a {
+	color: #000000;
+/*	text-decoration: none;*/
+}
+
+.background {
+	height: 100%;
+	width: 100%;
+	background-color: #000000;
+	opacity: 0.3;
+}
+
+/*font src="/Users/osumerina/Documents/Moscow Coding School/Day 3/"
